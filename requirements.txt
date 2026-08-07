@@ -1,0 +1,6 @@
+google-cloud-storage
+google-cloud-bigquery
+google-cloud-logging
+google-auth
+
+google-cloud-pubsub

@@ -1,0 +1,33 @@
+{
+  "project_id": "vivalab-healthcare",
+
+  "environment": "dev",
+
+  "buckets": {
+    "raw": "vivalab-healthcare-dev-raw",
+    "processed": "vivalab-healthcare-dev-processed",
+    "archive": "vivalab-healthcare-dev-archive",
+    "invalid": "vivalab-healthcare-dev-invalid",
+    "logs": "vivalab-healthcare-dev-logs",
+    "temp": "vivalab-healthcare-dev-temp"
+},
+
+  "datasets": {
+    "raw": "vivalab_dev_raw",
+    "curated": "vivalab_dev_curated",
+    "reporting": "vivalab_dev_reporting",
+    "metadata": "vivalab_dev_metadata"
+},
+
+  "tables": {
+    "patient": "patient_raw",
+    "doctor": "doctor_raw",
+    "appointment": "appointment_raw",
+    "laboratory": "laboratory_raw",
+    "billing": "billing_raw",
+    "prescription": "prescription_raw"
+},
+  "reject_threshold": 10,
+
+  "log_level": "INFO"
+}
